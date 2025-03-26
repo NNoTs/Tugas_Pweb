@@ -1,0 +1,115 @@
+
+body {
+    margin: 5;
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+}
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    font-style: italic;
+}
+.logo span {
+    color: rgb(0, 0, 0);
+}
+.nav {
+    display: flex;
+    gap: 20px;
+}
+.Menu-section {
+    padding: 50px 20px;
+    text-align: center;
+}
+.right-logo {
+    text-align: right;
+    font-size: 12px;
+    font-style: italic;
+}
+
+.subtitle {
+    color: #e6a100;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.section {
+    padding: 50px 20px;
+}
+
+.Kopi-Arabica {
+    text-align: center; /* Pusatkan teks */
+    max-width: 300px; /* Batasi lebar card */
+    margin: 20px auto; /* Posisikan di tengah */
+    padding: 15px;
+    border-radius: 10px; /* Opsional: membuat sudut elemen lebih halus */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Tambahkan shadow agar lebih menarik */
+}
+
+.Kopi-Arabica img {
+    width: 100%; /* Pastikan gambar memenuhi container */
+    border-radius: 10px; /* Buat sudut gambar lebih halus */
+}
+
+.Kopi-Arabica h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.Kopi-Arabica p {
+    font-size: 14px;
+    color: #666; /* Warna teks lebih lembut */
+}
+
+.Kopi-Robusta {
+    text-align: center; /* Pusatkan teks */
+    max-width: 300px; /* Batasi lebar card */
+    margin: 20px auto; /* Posisikan di tengah */
+    padding: 15px;
+    border-radius: 10px; /* Opsional: membuat sudut elemen lebih halus */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Tambahkan shadow agar lebih menarik */
+}
+
+.Kopi-Robusta img {
+    width: 100%; /* Pastikan gambar memenuhi container */
+    border-radius: 10px; /* Buat sudut gambar lebih halus */
+}
+
+.Kopi-Robusta h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.Kopi-Robusta p {
+    font-size: 14px;
+    color: #666; /* Warna teks lebih lembut */
+}
+
+footer {
+    background-color: #333; /* Warna latar belakang */
+    color: white; /* Warna teks */
+    text-align: center;
+    padding: 20px 0; /* Jarak atas & bawah */
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
+
+.footer-container a {
+    color: #fdbb2d; /* Warna link */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer-container a:hover {
+    text-decoration: underline; /* Efek hover */
+}
